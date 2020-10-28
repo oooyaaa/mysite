@@ -1,0 +1,151 @@
+body {
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif; 
+}
+
+h1 {
+    margin-top: 0;
+    color: #ffff6f;
+    font-family: 'Sacramento', cursive;
+    font-size: 58px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #ffff6f;
+    font-size: 20px;
+    margin: 0;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+h2 span {
+    text-decoration: underline;
+}
+.container-top {
+    position: relative;
+    padding-top: 100px;
+    background-color: #007ea8;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.container-middle {
+   
+}
+
+.container-middle> h2 {
+
+}
+
+.container-middle > div {
+    
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.container-middle > div > img {padding-bottom: 30px;}
+.container-middle > div > h2 {
+    font-size: 32px;
+    color: #6d00ca;
+    margin-bottom: 80px;
+}
+.container-middle > div > p {
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.container-middle .profile {
+    width: 50%;
+}
+.container-middle .profile img[src $="svg"] {
+    width: 90px;
+    padding: 50px 80px;
+    margin-bottom: 30px;
+    background: #f7f7d4;
+}
+
+
+
+
+.container-middle .skills .txt {
+    text-align: left;
+    
+}
+
+.container-middle .skill-row {width: 50%;margin: 0 auto;overflow: hidden;margin-bottom: 62px;}
+
+.container-middle .skill-row img {float: left;padding: 40px;}
+
+.container-middle .skill-row.skill1 {
+
+}
+
+.container-middle .skill-row.skill2 img {
+    float:right
+}
+
+
+
+.container-middle .skill-row h3 {margin: 0;}
+
+.container-middle .skill-row p {font-size: 14px;line-height: 32px;margin: 0;margin-top: 20px;}
+
+
+
+.container-middle img[src $="svg"] {
+    width: 50px;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 100px auto;
+    line-height: 2;
+}
+
+.contact-me .btn {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    background: #f90;
+    padding: 8px 20px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.container-bottom {
+   
+padding: 70px 0;
+   
+background: #0f3057;
+}
+
+.container-bottom .footer-link {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+    color: #88f8d8;
+    font-family: 'Montserrat';
+}
+.container-bottom p {
+    font-size: 12px;
+    color: #efe3fd;
+    margin: 40px 0 0px 0;
+}
